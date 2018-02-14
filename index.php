@@ -117,11 +117,9 @@ $loggedIn = isset($_SESSION['userID']);
 </body>
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("img").on({
-			'click': function(){
+		$("img").click(function(){
 			var imageSrc = $(this).attr('src');
-			$("window....").show($(this).attr('src',imageSrc));//?? reference to new window location
-			}
+			window.open(imageSrc);				
 		});
 	});
 </script>

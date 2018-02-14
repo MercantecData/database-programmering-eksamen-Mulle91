@@ -1,4 +1,4 @@
-<title>Admin Page</title>
+title>Admin Page</title>
 <?php
 if(isset($_POST["submit"])) {
 	//db connection
